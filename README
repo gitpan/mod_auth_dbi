@@ -1,0 +1,16 @@
+
+To link Apache with the DBI authentication module, you'll need to use
+the Makefile.tmpl file in this directory, or make changes to your copy.
+
+You'll also need to add this line to the Configuration file:
+Module dbi_auth_module mod_auth_dbi.o
+
+Fetch and install Devel::embed from CPAN.
+
+Follow the Apache install docs from there.
+
+see comments in mod_auth_dbi.c too.
+
+Let me (dougm@osf.org) know how it goes...
+
+
